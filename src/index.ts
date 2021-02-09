@@ -1,3 +1,7 @@
-import sum from './sum';
+import { np } from './np';
+import { withCache } from './withCache';
 
-export { sum };
+export default {
+    np,
+    withCache,
+};
